@@ -13,4 +13,4 @@ At least 1 enumeration<br />
 At least 1 event (with subscribers)<br />
 At least 1 design pattern (e.g. Composite, Singleton, Factory, Wrapper, Bridge, Command, etc.)<br />
 <br />
-You might read about design patterns in Wikipedia, Sourcemaking, DoFactory and others.
+
