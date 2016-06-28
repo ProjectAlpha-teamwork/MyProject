@@ -5,3 +5,6 @@ C:\Users\Georgi\Desktop\MyProject\TeamProject-Alpha\bin\Debug\TeamProject-Alpha.
 C:\Users\Georgi\Desktop\MyProject\TeamProject-Alpha\bin\Debug\TeamProject-Alpha.pdb
 C:\Users\Georgi\Desktop\MyProject\TeamProject-Alpha\obj\Debug\TeamProject-Alpha.exe
 C:\Users\Georgi\Desktop\MyProject\TeamProject-Alpha\obj\Debug\TeamProject-Alpha.pdb
+E:\C#OOP Teamwork\MyProject\TeamProject-Alpha\bin\Debug\TeamProject-Alpha.exe.config
+E:\C#OOP Teamwork\MyProject\TeamProject-Alpha\obj\Debug\TeamProject-Alpha.exe
+E:\C#OOP Teamwork\MyProject\TeamProject-Alpha\obj\Debug\TeamProject-Alpha.pdb

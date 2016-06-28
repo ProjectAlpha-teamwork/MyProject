@@ -8,8 +8,9 @@ using System.Threading.Tasks;
 
 namespace TeamProject_Alpha.Sports
 {
-    public class Soccer : Sport
+    public class Football : PossibleDraw 
     {
+       // private double[] coefficients = new double[3];
         
 
     }
