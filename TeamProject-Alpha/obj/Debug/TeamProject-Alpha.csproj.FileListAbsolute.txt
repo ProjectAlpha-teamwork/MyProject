@@ -1,1 +1,7 @@
 C:\Users\dnt\Desktop\whatup\DemoDemoDemo\TeamProject-Alpha\TeamProject-Alpha\bin\Debug\TeamProject-Alpha.exe.config
+C:\Users\Georgi\Desktop\MyProject\TeamProject-Alpha\bin\Debug\TeamProject-Alpha.exe.config
+C:\Users\Georgi\Desktop\MyProject\TeamProject-Alpha\obj\Debug\TeamProject-Alpha.csprojResolveAssemblyReference.cache
+C:\Users\Georgi\Desktop\MyProject\TeamProject-Alpha\bin\Debug\TeamProject-Alpha.exe
+C:\Users\Georgi\Desktop\MyProject\TeamProject-Alpha\bin\Debug\TeamProject-Alpha.pdb
+C:\Users\Georgi\Desktop\MyProject\TeamProject-Alpha\obj\Debug\TeamProject-Alpha.exe
+C:\Users\Georgi\Desktop\MyProject\TeamProject-Alpha\obj\Debug\TeamProject-Alpha.pdb

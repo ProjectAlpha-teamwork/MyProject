@@ -48,6 +48,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sports\Soccer.cs" />
     <Compile Include="Sports\Sport.cs" />
+    <Compile Include="User\Gender.cs" />
+    <Compile Include="User\User.cs" />
+    <Compile Include="User\Validation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
