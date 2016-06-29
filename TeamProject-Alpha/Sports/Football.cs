@@ -10,7 +10,6 @@ namespace TeamProject_Alpha.Sports
 {
     public class Football : PossibleDraw 
     {
-       // private double[] coefficients = new double[3];
         
 
     }

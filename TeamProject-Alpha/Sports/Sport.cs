@@ -8,7 +8,13 @@ namespace TeamProject_Alpha.Sports
 {
     public abstract class Sport
     {
+        string SportName { get; }
 
-        
+        int MatchDuration { get; }
+
+        DateTime EventDate { get; }
+
+        double[] Coefficients { get; }
+
     }
 }
