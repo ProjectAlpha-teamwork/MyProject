@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClassLibrary1
+namespace Users
 {
     public class User
     {
@@ -20,7 +20,7 @@ namespace ClassLibrary1
         private DateTime birthDay;
 
         public User(string userName, string firstName, string lastName,
-            string ssn,/* decimal balance,*/ Gender gender, string passWord,
+            string ssn, decimal balance, Gender gender, string passWord,
             string backUpCode, string address, DateTime birthDay)
         {
             this.UserName = userName;
@@ -33,6 +33,7 @@ namespace ClassLibrary1
             this.BackUpCode = backUpCode;
             this.Address = address;
             this.BirthDay = birthDay;
+            this.Balance = balance;
         }
 
         public string UserName
