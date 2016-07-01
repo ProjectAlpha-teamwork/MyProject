@@ -54,6 +54,8 @@
     <Compile Include="Sports\Football.cs" />
     <Compile Include="Sports\Sport.cs" />
     <Compile Include="User\Gender.cs" />
+    <Compile Include="User\Login.cs" />
+    <Compile Include="User\Registration.cs" />
     <Compile Include="User\User.cs" />
     <Compile Include="User\Validation.cs" />
   </ItemGroup>

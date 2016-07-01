@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TeamProject_Alpha.Sports;
+using TeamProject_Alpha.Users;
+using Users;
 
 namespace TeamProject_Alpha
 {
@@ -11,18 +13,27 @@ namespace TeamProject_Alpha
     {
         static void Main(string[] args)
         {
-            List<string> lines = new List<string>(System.IO.File.ReadAllLines("../../OpponentList.txt"));
-            foreach (var item in lines)
-            {
-                System.Console.WriteLine(item);
-                Console.WriteLine("Extracting id from text file");
-                System.Console.WriteLine(ParseId(item));
-                Console.WriteLine("Extracting match from text file");
-                System.Console.WriteLine(ParseMatch(item));
-                Console.WriteLine("Extracting coef of _1_ result");
-                Console.WriteLine(ParseBetCoef(item, "1"));
-                Console.WriteLine(CalculateBet(ParseBetCoef(item, "1"),5,10));
-            }
+            //List<string> lines = new List<string>(System.IO.File.ReadAllLines("../../OpponentList.txt"));
+            //foreach (var item in lines)
+            //{
+            //    System.Console.WriteLine(item);
+            //    Console.WriteLine("Extracting id from text file");
+            //    System.Console.WriteLine(ParseId(item));
+            //    Console.WriteLine("Extracting match from text file");
+            //    System.Console.WriteLine(ParseMatch(item));
+            //    Console.WriteLine("Extracting coef of _1_ result");
+            //    Console.WriteLine(ParseBetCoef(item, "1"));
+            //    Console.WriteLine(CalculateBet(ParseBetCoef(item, "1"),5,10));
+            //}
+
+
+            //var reg = new Registration("gosho", "goshov", "goshov", "99999999999", 1000,
+            //    Gender.Male, "123456", "123456", "slientam", new DateTime(1995, 1, 18));
+
+            var gosho = Login.SignIn("gosho", "123456");
+
+            Console.WriteLine(gosho.UserName);
+
         }
         public static string ParseId(string text) //parse method to read path from string
         {

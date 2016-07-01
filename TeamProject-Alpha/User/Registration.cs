@@ -11,6 +11,7 @@ namespace TeamProject_Alpha.Users
 {
     class Registration
     {
+        
 
         public Registration(string userName, string firstName, string lastName,
             string ssn, decimal balance, Gender gender, string passWord,
@@ -18,38 +19,46 @@ namespace TeamProject_Alpha.Users
         {
             var randomUser = new User(userName, firstName, lastName, ssn, balance, gender, passWord, backUpCode, address, birthDay);
 
-            DoesItExist(userName);
+            if (DoesItExist(userName))
+            {
+                throw new ArgumentException("This username is already taken.");
+            }
+            else
+            {
+                var writer = new StreamWriter("Users.txt");
 
-            var writer = new StreamWriter("Users.txt");
+                writer.WriteLine(userName + " " + firstName + " " + lastName + " " + ssn + " " + balance + " " + gender + " " + passWord
+                    + " " + backUpCode + " " + address + " " + birthDay);
 
-            writer.WriteLine(userName + " " + firstName + " " + lastName + " " + ssn + " " + balance + " " + gender + " " + passWord
-                + " " + backUpCode + " " + address + " " + birthDay);
+                writer.Close();
 
-            writer.Close();
+            }
+
 
 
 
         }
 
 
-        private static void DoesItExist(string userName)
+        private static bool DoesItExist(string userName)
         {
             var reader = new StreamReader("Users.txt");
            
             var line = reader.ReadLine();          
 
-            while (line == null)
+            while (line != null)
             {
                 if (line.Contains(userName))
                 {
                     reader.Close();
-                    throw new ArgumentException("This username is already taken");
+                    return true;
                 }
 
                 line = reader.ReadLine();
             }
 
             reader.Close();
+            return false;
         }
     }
 }

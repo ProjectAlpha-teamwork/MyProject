@@ -23,7 +23,7 @@ namespace Users
 
         public const decimal MaxDeposit = 100000;
 
-        public const string PassPattern = @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,15}$";
+        public const string PassPattern = @"(.*?).{4,15}";
 
         public const int DaysInYear = 365;
 
