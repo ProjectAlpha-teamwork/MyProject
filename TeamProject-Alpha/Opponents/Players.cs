@@ -1,4 +1,8 @@
-﻿namespace Application.PlayersOrTeams
+﻿/// ne znam dali shte vi trqbwat ,no gi napravih 
+/// ako sluchaino iskate da pravite listove ot tqh ,za da si vzimame dannite s igrachite ot failovete 
+/// ako ne vi trqbvat gi mahnete
+
+namespace Application.PlayersOrTeams
 {
     using System;
     using System.Collections.Generic;
@@ -6,9 +10,6 @@
     using System.Text;
     using System.Threading.Tasks;
 
-    /// ne znam dali shte vi trqbwat ,no gi napravih 
-    /// ako sluchaino iskate da pravite listove ot tqh ,za da si vzimame dannite s igrachite ot failovete 
-    /// ako ne vi trqbvat gi mahnete
     class Players
     {
         private string name;

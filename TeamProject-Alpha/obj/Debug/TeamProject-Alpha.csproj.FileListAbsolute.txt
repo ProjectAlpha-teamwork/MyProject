@@ -20,3 +20,6 @@ C:\Users\Konstantin Papazov\Desktop\MyProject-master\TeamProject-Alpha\obj\Debug
 C:\Users\Konstantin Papazov\Desktop\MyProject-master\TeamProject-Alpha\obj\Debug\TeamProject-Alpha.csprojResolveAssemblyReference.cache
 C:\Users\Konstantin Papazov\Desktop\MyProject-master\TeamProject-Alpha\bin\Debug\TeamProject-Alpha.exe
 C:\Users\Konstantin Papazov\Desktop\MyProject-master\TeamProject-Alpha\bin\Debug\TeamProject-Alpha.pdb
+C:\Users\Konstantin Papazov\Desktop\MyProject\TeamProject-Alpha\bin\Debug\TeamProject-Alpha.exe.config
+C:\Users\Konstantin Papazov\Desktop\MyProject\TeamProject-Alpha\obj\Debug\TeamProject-Alpha.exe
+C:\Users\Konstantin Papazov\Desktop\MyProject\TeamProject-Alpha\obj\Debug\TeamProject-Alpha.pdb
