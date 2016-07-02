@@ -10,7 +10,7 @@
     {
 
         private string sportName;
-        private int matchDuration;
+        //private int matchDuration;
         private DateTime eventDate;
 
         public Sport(DateTime eventDate, string sportName, int matchDuration)
