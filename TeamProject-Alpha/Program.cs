@@ -23,7 +23,7 @@ namespace TeamProject_Alpha
                 System.Console.WriteLine(ParseMatch(item));
                 Console.WriteLine("Extracting coef of _1_ result");
                 Console.WriteLine(ParseBetCoef(item, "1"));
-                Console.WriteLine(CalculateBet(ParseBetCoef(item, "1"),5,10));
+                Console.WriteLine(CalculateBet(ParseBetCoef(item, "1"),5));
             }
 
 
@@ -76,11 +76,11 @@ namespace TeamProject_Alpha
             }
 
         }
-        public static Tuple<double,double> CalculateBet(double bet, double deposit, double balance)
+        public static double CalculateBet(double bet, double deposit)
         {
-            double newBalance = balance - deposit;
+            
             double finalBet = deposit * bet;
-            return new Tuple<double,double>(finalBet, newBalance);
+            return finalBet;
         }
     }
 }
