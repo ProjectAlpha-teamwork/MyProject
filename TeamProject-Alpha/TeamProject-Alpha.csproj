@@ -43,25 +43,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Opponents\Opponent.cs" />
+    <Compile Include="Opponents\Players.cs" />
+    <Compile Include="Opponents\Teams.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sports\Baseball.cs" />
-    <Compile Include="Sports\Cricket.cs" />
-    <Compile Include="Sports\Handball.cs" />
-    <Compile Include="Sports\Hockey.cs" />
-    <Compile Include="Sports\PossibleDraw.cs" />
-    <Compile Include="Sports\Football.cs" />
+    <Compile Include="Sports\NotPossibleDraw\Box.cs" />
+    <Compile Include="Sports\PossibleDraw\Cricket.cs" />
+    <Compile Include="Sports\PossibleDraw\Handball.cs" />
+    <Compile Include="Sports\PossibleDraw\Hockey.cs" />
+    <Compile Include="Sports\NotPossibleDraw\NotPossibleDraw.cs" />
+    <Compile Include="Sports\PossibleDraw\PossibleDraw.cs" />
+    <Compile Include="Sports\PossibleDraw\Football.cs" />
     <Compile Include="Sports\Sport.cs" />
-    <Compile Include="User\Gender.cs" />
+    <Compile Include="Sports\NotPossibleDraw\Tennis.cs" />
+    <Compile Include="Sports\NotPossibleDraw\Volleyball.cs" />
+    <Compile Include="Enumerators\Gender.cs" />
+    <Compile Include="User\Login.cs" />
+    <Compile Include="User\Registration.cs" />
     <Compile Include="User\User.cs" />
     <Compile Include="User\Validation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Enumerators\" />
     <Folder Include="Interfaces\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

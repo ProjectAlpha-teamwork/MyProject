@@ -32,7 +32,7 @@ namespace Users
             this.PassWord = passWord;
             this.BackUpCode = backUpCode;
             this.Address = address;
-            this.BirthDay = birthDay;
+            this.BirthDay = birthDay.Date;
             this.Balance = balance;
         }
 
@@ -119,7 +119,7 @@ namespace Users
 
             private set
             {
-                if (!(value > 0 && value < Validation.MaxDeposit))
+                if (value < 0 && value > Validation.MaxDeposit)
                 {
                     throw new ArgumentException("This ammount can not be set.");
                 }
@@ -189,6 +189,10 @@ namespace Users
 
             private set
             {
+                if (value==null)
+                {
+                    throw new ArgumentException("Please insert valid addres.");
+                }
                 this.address = value;
             }
         }
@@ -198,7 +202,7 @@ namespace Users
         {
             get
             {
-                return this.birthDay;
+                return this.birthDay.Date;
             }
             set
             {
@@ -207,7 +211,7 @@ namespace Users
                     throw new ArgumentException("You must be over 18 to bet.");
                 }
 
-                this.birthDay = value;
+                this.birthDay = value.Date;
             }
         }
 

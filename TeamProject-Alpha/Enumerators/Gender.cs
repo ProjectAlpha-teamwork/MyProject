@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TeamProject_Alpha.Sports
+namespace Users
 {
-    class Hockey : PossibleDraw
+    public enum Gender
     {
-
-
-
+        Male,
+        Female,
+        Other
     }
 }
