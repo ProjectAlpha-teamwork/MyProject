@@ -26,3 +26,9 @@ C:\Users\Konstantin Papazov\Desktop\MyProject\TeamProject-Alpha\obj\Debug\TeamPr
 E:\C#OOP Teamwork\MyProject\TeamProject-Alpha\bin\Debug\TeamProject-Alpha.exe
 E:\C#OOP Teamwork\MyProject\TeamProject-Alpha\bin\Debug\TeamProject-Alpha.pdb
 E:\C#OOP Teamwork\MyProject\TeamProject-Alpha\obj\Debug\TeamProject-Alpha.csprojResolveAssemblyReference.cache
+C:\Users\dnt\Desktop\MyProject\TeamProject-Alpha\bin\Debug\TeamProject-Alpha.exe.config
+C:\Users\dnt\Desktop\MyProject\TeamProject-Alpha\obj\Debug\TeamProject-Alpha.exe
+C:\Users\dnt\Desktop\MyProject\TeamProject-Alpha\obj\Debug\TeamProject-Alpha.pdb
+C:\Users\dnt\Desktop\MyProject\TeamProject-Alpha\bin\Debug\TeamProject-Alpha.exe
+C:\Users\dnt\Desktop\MyProject\TeamProject-Alpha\bin\Debug\TeamProject-Alpha.pdb
+C:\Users\dnt\Desktop\MyProject\TeamProject-Alpha\obj\Debug\TeamProject-Alpha.csprojResolveAssemblyReference.cache
