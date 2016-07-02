@@ -11,8 +11,6 @@ namespace TeamProject_Alpha.Users
 {
     class Registration
     {
-        
-
         public Registration(string userName, string firstName, string lastName,
             string ssn, decimal balance, Gender gender, string passWord,
             string backUpCode, string address, DateTime birthDay)
@@ -33,10 +31,6 @@ namespace TeamProject_Alpha.Users
                 writer.Close();
 
             }
-
-
-
-
         }
 
 

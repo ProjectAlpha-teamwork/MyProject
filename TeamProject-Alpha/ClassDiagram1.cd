@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Users.User" Collapsed="true">
+    <Position X="18.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAkAAAABBAACCAAgAgAgMABIJAAASAQAACgEAAAo=</HashCode>
+      <FileName>User\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Users.Validation" Collapsed="true">
+    <Position X="20" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACEAAAAAAIABAQAAIgAAAAAAAQAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>User\Validation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TeamProject_Alpha.Opponents.Teams" Collapsed="true">
+    <Position X="18.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAIAAAACAA=</HashCode>
+      <FileName>Opponents\Teams.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TeamProject_Alpha.Program" Collapsed="true">
+    <Position X="20" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAIAAQAAAAAAAAAAAAAAAAAQAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TeamProject_Alpha.Sports.Box" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sports\NotPossibleDraw\Box.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TeamProject_Alpha.Sports.NotPossibleDraw" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sports\NotPossibleDraw\NotPossibleDraw.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TeamProject_Alpha.Sports.Tennis" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sports\NotPossibleDraw\Tennis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TeamProject_Alpha.Sports.Volleyball" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sports\NotPossibleDraw\Volleyball.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TeamProject_Alpha.Sports.Cricket" Collapsed="true">
+    <Position X="14" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sports\PossibleDraw\Cricket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TeamProject_Alpha.Sports.Football" Collapsed="true">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sports\PossibleDraw\Football.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TeamProject_Alpha.Sports.Handball" Collapsed="true">
+    <Position X="9.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sports\PossibleDraw\Handball.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TeamProject_Alpha.Sports.Hockey" Collapsed="true">
+    <Position X="11.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sports\PossibleDraw\Hockey.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TeamProject_Alpha.Sports.PossibleDraw" Collapsed="true">
+    <Position X="10.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAIEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sports\PossibleDraw\PossibleDraw.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TeamProject_Alpha.Sports.Sport" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAIAAAAAAAAAAAAAAAACAAAAAgAAAEAAAABAAAA=</HashCode>
+      <FileName>Sports\Sport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TeamProject_Alpha.Users.Login" Collapsed="true">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>User\Login.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TeamProject_Alpha.Users.Registration" Collapsed="true">
+    <Position X="16.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>User\Registration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Users.Gender" Collapsed="true">
+    <Position X="16.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Enumerators\Gender.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="8.83" />
+</ClassDiagram>
