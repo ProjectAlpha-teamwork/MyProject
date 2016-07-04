@@ -43,21 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Opponents\Players.cs" />
-    <Compile Include="Opponents\Teams.cs" />
+    <Compile Include="Interfaces\IHockey.cs" />
+    <Compile Include="Interfaces\IFootball.cs" />
+    <Compile Include="Interfaces\ISport.cs" />
+    <Compile Include="Interfaces\IVolleyball.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sports\NotPossibleDraw\Box.cs" />
-    <Compile Include="Sports\PossibleDraw\Cricket.cs" />
-    <Compile Include="Sports\PossibleDraw\Handball.cs" />
-    <Compile Include="Sports\PossibleDraw\Hockey.cs" />
-    <Compile Include="Sports\NotPossibleDraw\NotPossibleDraw.cs" />
-    <Compile Include="Sports\PossibleDraw\PossibleDraw.cs" />
-    <Compile Include="Sports\PossibleDraw\Football.cs" />
+    <Compile Include="Sports\Football.cs" />
+    <Compile Include="Sports\Hockey.cs" />
+    <Compile Include="Sports\IVolleyball.cs" />
     <Compile Include="Sports\Sport.cs" />
-    <Compile Include="Sports\NotPossibleDraw\Tennis.cs" />
-    <Compile Include="Sports\NotPossibleDraw\Volleyball.cs" />
     <Compile Include="Enumerators\Gender.cs" />
+    <Compile Include="Sports\Volleyball.cs" />
     <Compile Include="User\Login.cs" />
     <Compile Include="User\Registration.cs" />
     <Compile Include="User\User.cs" />
@@ -67,9 +64,7 @@
     <None Include="App.config" />
     <None Include="ClassDiagram1.cd" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Interfaces\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
