@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram MajorVersion="1" MinorVersion="1">
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
   <Class Name="Users.User" Collapsed="true">
     <Position X="20" Y="1.5" Width="1.5" />
     <TypeIdentifier>
@@ -14,96 +14,35 @@
       <FileName>User\Validation.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Application.PlayersOrTeams.Players" Collapsed="true">
-    <Position X="18.25" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAQAAAAEAAAAQAAAAEAAAAAAAIAAAACAA=</HashCode>
-      <FileName>Opponents\Players.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="TeamProject_Alpha.Opponents.Teams" Collapsed="true">
-    <Position X="18.25" Y="1.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAIAAAACAA=</HashCode>
-      <FileName>Opponents\Teams.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="TeamProject_Alpha.Program" Collapsed="true">
     <Position X="20" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAABAAAAAIAAQAAAAAAAAAAAAAAAAAQAAAABAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="TeamProject_Alpha.Sports.Box" Collapsed="true">
-    <Position X="0.5" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Sports\NotPossibleDraw\Box.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="TeamProject_Alpha.Sports.NotPossibleDraw" Collapsed="true">
-    <Position X="2.75" Y="1.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Sports\NotPossibleDraw\NotPossibleDraw.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="TeamProject_Alpha.Sports.Tennis" Collapsed="true">
-    <Position X="2.75" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Sports\NotPossibleDraw\Tennis.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="TeamProject_Alpha.Sports.Volleyball" Collapsed="true">
-    <Position X="5" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Sports\NotPossibleDraw\Volleyball.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="TeamProject_Alpha.Sports.Cricket" Collapsed="true">
-    <Position X="7.25" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Sports\PossibleDraw\Cricket.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="TeamProject_Alpha.Sports.Football" Collapsed="true">
     <Position X="9.5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Sports\PossibleDraw\Football.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sports\Football.cs</FileName>
     </TypeIdentifier>
-  </Class>
-  <Class Name="TeamProject_Alpha.Sports.Handball" Collapsed="true">
-    <Position X="11.75" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Sports\PossibleDraw\Handball.cs</FileName>
-    </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="TeamProject_Alpha.Sports.Hockey" Collapsed="true">
     <Position X="14" Y="3.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Sports\PossibleDraw\Hockey.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="TeamProject_Alpha.Sports.PossibleDraw" Collapsed="true">
-    <Position X="10.75" Y="1.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAIEAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Sports\PossibleDraw\PossibleDraw.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sports\Hockey.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="TeamProject_Alpha.Sports.Sport" Collapsed="true">
     <Position X="7.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AgAAAAIAAAAAAAAAAAAAAAACAAAAAgAAAEAAAABAAAA=</HashCode>
+      <HashCode>AgAABAIAAAIAAQAAAAAAAAAAAAAAQAAQAAAAAAAEAAA=</HashCode>
       <FileName>Sports\Sport.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="TeamProject_Alpha.Users.Login" Collapsed="true">
     <Position X="16.5" Y="0.5" Width="1.5" />

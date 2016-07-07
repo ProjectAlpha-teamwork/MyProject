@@ -15,7 +15,7 @@ namespace TeamProject_Alpha
     {
         static void Main(string[] args)
         {
-            Sport test = new Volleyball("ime");
+            Sport test = new Football("ime");
             test.UserBetInteraction();
 
 

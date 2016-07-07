@@ -64,12 +64,12 @@
             }
             if (bet == "x")
             {
-                return result = Convert.ToDouble(possibleCoef[1].Substring(5, 4));
+                return result = Convert.ToDouble(possibleCoef[2].Substring(5, 4));
 
             }
             if (bet == "2")
             {
-                return result = Convert.ToDouble(possibleCoef[2].Substring(5, 4));
+                return result = Convert.ToDouble(possibleCoef[1].Substring(5, 4));
             }
             else
             {
@@ -85,14 +85,24 @@
         }
         public virtual string ParseBetCoef(string text)
         {
-            string threeCoeff;
+        
             string[] arr = text.Split('|');
             string[] possibleCoef = new string[3];
             possibleCoef[0] = arr[2];
             possibleCoef[1] = arr[3];
-            possibleCoef[2] = arr[4];
-            threeCoeff = possibleCoef[0] + possibleCoef[1] + possibleCoef[2];
-            return threeCoeff;
+            if (arr.Length == 5)
+            {
+                possibleCoef[2] = arr[4];
+                string threeCoeff = possibleCoef[0] + possibleCoef[1] + possibleCoef[2];
+                return threeCoeff;
+            }
+            else
+            {
+                string twoCoeff = possibleCoef[0] + possibleCoef[1];
+                return twoCoeff;
+            }
+            
+            
 
         }
         public virtual string PrintF(string id, string match, string possibleResults)
@@ -100,7 +110,7 @@
             string result = string.Format("Match id: " + id + " " + match + " " + possibleResults);
             return result;
         }
-
+        
         
     }
 }

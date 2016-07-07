@@ -13,8 +13,9 @@ namespace TeamProject_Alpha.Interfaces
         double ParseBetCoef(string text, string bet);
         double CalculateBet(double bet, double deposit);
         string ParseBetCoef(string text);
-        
-       
+        void UserBetInteraction();
+
+
 
     }
 }

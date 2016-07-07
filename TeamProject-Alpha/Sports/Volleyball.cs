@@ -4,6 +4,8 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TeamProject_Alpha.Interfaces;
+using TeamProject_Alpha.Sports;
 
 namespace TeamProject_Alpha.Sports
 {
@@ -14,7 +16,7 @@ namespace TeamProject_Alpha.Sports
         }
         public override void UserBetInteraction()
         {
-            List<string> lines = new List<string>(System.IO.File.ReadAllLines("../../VolleyballOpponentList.txt"));
+            List<string> lines = new List<string>(File.ReadAllLines("../../VolleyballOpponentList.txt"));
             foreach (var item in lines)
             {
 
