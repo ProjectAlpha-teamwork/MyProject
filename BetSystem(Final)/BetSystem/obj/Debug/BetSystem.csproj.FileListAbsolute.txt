@@ -1,0 +1,6 @@
+E:\C#OOP Teamwork(Final)\MyProject\BetSystem(Final)\BetSystem\bin\Debug\BetSystem.exe.config
+E:\C#OOP Teamwork(Final)\MyProject\BetSystem(Final)\BetSystem\bin\Debug\BetSystem.exe
+E:\C#OOP Teamwork(Final)\MyProject\BetSystem(Final)\BetSystem\bin\Debug\BetSystem.pdb
+E:\C#OOP Teamwork(Final)\MyProject\BetSystem(Final)\BetSystem\obj\Debug\BetSystem.csprojResolveAssemblyReference.cache
+E:\C#OOP Teamwork(Final)\MyProject\BetSystem(Final)\BetSystem\obj\Debug\BetSystem.exe
+E:\C#OOP Teamwork(Final)\MyProject\BetSystem(Final)\BetSystem\obj\Debug\BetSystem.pdb
