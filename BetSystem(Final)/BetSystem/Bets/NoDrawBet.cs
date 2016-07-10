@@ -13,7 +13,7 @@
         private const double maxTimeToclose = 0.75;
 
         //properties
-        public DrawNotPossibleResults BetOnResult { get; }
+        public DrawNotPossibleResults BetOnResult { get; set; }
 
         //constructors
         public NoDrawBet(IMatch match, decimal betAmount, string uniqueID, DrawNotPossibleResults betOnResult)

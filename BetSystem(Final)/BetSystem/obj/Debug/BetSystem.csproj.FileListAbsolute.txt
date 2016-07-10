@@ -4,3 +4,12 @@ E:\C#OOP Teamwork(Final)\MyProject\BetSystem(Final)\BetSystem\bin\Debug\BetSyste
 E:\C#OOP Teamwork(Final)\MyProject\BetSystem(Final)\BetSystem\obj\Debug\BetSystem.csprojResolveAssemblyReference.cache
 E:\C#OOP Teamwork(Final)\MyProject\BetSystem(Final)\BetSystem\obj\Debug\BetSystem.exe
 E:\C#OOP Teamwork(Final)\MyProject\BetSystem(Final)\BetSystem\obj\Debug\BetSystem.pdb
+C:\Users\Konstantin Papazov\Desktop\BetSystem(Final)\BetSystem\bin\Debug\BetSystem.exe.config
+C:\Users\Konstantin Papazov\Desktop\BetSystem(Final)\BetSystem\obj\Debug\BetSystem.csprojResolveAssemblyReference.cache
+C:\Users\Konstantin Papazov\Desktop\BetSystem(Final)\BetSystem\bin\Debug\BetSystem.exe
+C:\Users\Konstantin Papazov\Desktop\BetSystem(Final)\BetSystem\bin\Debug\BetSystem.pdb
+C:\Users\Konstantin Papazov\Desktop\BetSystem(Final)\BetSystem\obj\Debug\BetSystem.exe
+C:\Users\Konstantin Papazov\Desktop\BetSystem(Final)\BetSystem\obj\Debug\BetSystem.pdb
+C:\Users\Konstantin Papazov\Desktop\MyProject\BetSystem(Final)\BetSystem\bin\Debug\BetSystem.exe.config
+C:\Users\Konstantin Papazov\Desktop\MyProject\BetSystem(Final)\BetSystem\obj\Debug\BetSystem.exe
+C:\Users\Konstantin Papazov\Desktop\MyProject\BetSystem(Final)\BetSystem\obj\Debug\BetSystem.pdb

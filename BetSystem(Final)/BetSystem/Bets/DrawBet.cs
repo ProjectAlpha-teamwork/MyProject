@@ -9,7 +9,7 @@
 
     public class DrawBet : Bet
     {
-        public DrawPossibleResults BetOnResult { get; }
+        public DrawPossibleResults BetOnResult { get; set; }
 
         //constructors
         public DrawBet(IMatch match, decimal betAmount, string uniqueID, DrawPossibleResults betOnResult)

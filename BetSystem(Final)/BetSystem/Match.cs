@@ -101,7 +101,7 @@
                 }
                 catch (Exception)
                 {
-                    throw new ArgumentException("All coefficients should be positive doubles greater or equal to 1");
+                    //throw new ArgumentException("All coefficients should be positive doubles greater or equal to 1");
                 }
             }
 

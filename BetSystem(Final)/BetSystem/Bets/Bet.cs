@@ -12,9 +12,9 @@
         private string id;
 
         //properties
-        public IMatch Match { get; }
+        public IMatch Match { get; set; }
         public bool BetClosed { get; protected set; }
-        public decimal BetAmnout { get; }
+        public decimal BetAmnout { get; set; }
         public decimal MaxPossibleWin { get; protected set; }
         public decimal AmountWon { get; protected set; }
         public string ID
