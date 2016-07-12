@@ -52,7 +52,7 @@
     <Compile Include="Enumerations\DrawNotPossibleResults.cs" />
     <Compile Include="Enumerations\DrawPossibleResults.cs" />
     <Compile Include="EventDeclarations\MatchEvents.cs" />
-    <Compile Include="Users\Gender.cs" />
+    <Compile Include="Enumerations\Gender.cs" />
     <Compile Include="Interfaces\IBet.cs" />
     <Compile Include="Interfaces\IDrawableSports.cs" />
     <Compile Include="Interfaces\IMatch.cs" />
